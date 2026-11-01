@@ -19,8 +19,6 @@
   "host_permissions": [
     "https://beacon-prod-comms.azurewebsites.net/*",
     "https://beacon-train-comms.azurewebsites.net/*",
-    "https://beacon-test-comms.azurewebsites.net/*",
-    "https://beacon-dev-comms.azurewebsites.net/*",
     "https://beacon.ses.nsw.gov.au/*",
     "https://trainbeacon.ses.nsw.gov.au/*",
     "https://previewbeacon.ses.nsw.gov.au/*",
@@ -45,6 +43,10 @@
     "https://services1.arcgis.com/*",
     "https://api.rainviewer.com/*",
     "https://portal.spatial.nsw.gov.au/*"
+  ],
+  "optional_host_permissions": [
+    "https://beacon-test-comms.azurewebsites.net/*",
+    "https://beacon-dev-comms.azurewebsites.net/*"
   ],
   "permissions": [
     "storage",

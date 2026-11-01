@@ -86,7 +86,6 @@ The home page shows the first three `##` entries, so keep the title short.
 - **The pulsing ring on New incidents and the marching ring on Active incidents now move with their marker.** They used to stay behind for a moment when markers gathered into a cluster or spread out of one, and could go missing until the next zoom. See [Incident Clustering](https://lighthouse.ses.nsw.gov.au/guides/lad/situation-map.html#incident-clustering).
 - With clustering turned off, an incident that drops off the list now disappears from the map too.
 - **BOM Thunderstorm Tracking is now drawn above BOM Rain Radar Still** by default, so storm cells and their tracks aren't hidden under the rain. If you've already arranged your layers, use **Reset** on the Map layers tab to get the new order. See [Map Layers](https://lighthouse.ses.nsw.gov.au/guides/lad/configuration.html#map-layers).
-- **Live updates now work on Test Beacon and Dev Beacon.** Lighthouse couldn't reach the live update service for those two environments, so LAD's "Live updates disconnected" banner never cleared and changes only showed up on the next full refresh. The Radio Operations Console gets live updates there too. See [Live Updates](https://lighthouse.ses.nsw.gov.au/guides/lad/configuration.html#live-updates).
 
 ## LAD arrival times, overlay status and street zoom
 
